@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Laivanupotus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="StartWindow" Height="350" Width="250">
     <Grid>
-        
+        <StackPanel>
+            <TextBlock x:Name="txb_gameName" Text="Laivanupotus" FontSize="20" HorizontalAlignment="Center">  </TextBlock>
+            
+        </StackPanel>
     </Grid>
 </Window>

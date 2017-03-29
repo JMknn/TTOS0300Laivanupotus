@@ -69,6 +69,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Ship.cs" />
+    <Compile Include="Model\Tile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
